@@ -43,7 +43,7 @@ public class MainView extends VerticalLayout {
         setJustifyContentMode(JustifyContentMode.CENTER);
 
         // Überschrift
-        H1 titel = new H1("🛠️ InfoKom Baustoff-Rechner");
+        H1 titel = new H1("🛠️ Baustoff-Rechner");
 
         configureMaterialLoader();
 
