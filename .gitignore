@@ -1,0 +1,37 @@
+# --- Maven & Java Build ---
+/target/
+*.class
+*.log
+*.jar
+*.war
+
+# --- Spring Boot ---
+HELP.md
+.mvn/wrapper/maven-wrapper.properties
+
+# --- IDE Settings (VS Code, IntelliJ, Eclipse, NetBeans) ---
+# Wir wollen keine lokalen User-Settings im Repo haben
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+bin/
+
+# --- OS Junk (Windows & Mac) ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Vaadin & Frontend (WICHTIG!) ---
+# Diese Ordner werden beim Start generiert und gehören NICHT ins Repo
+node_modules/
+src/main/frontend/generated/
+vite.generated.ts
+vite.config.ts.timestamp-*
+pnpm-debug.log
+npm-debug.log
+yarn-error.log
