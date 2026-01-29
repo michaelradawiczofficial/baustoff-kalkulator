@@ -37,6 +37,7 @@ Die Anwendung ist "Dual Stack" konfiguriert und lauscht nativ auf IPv6-Adressen.
 
 ## 📂 Projektstruktur
 
+```text
 src/main/java/de/portfolio/
 ├── Application.java           # Entry Point
 ├── backend/
